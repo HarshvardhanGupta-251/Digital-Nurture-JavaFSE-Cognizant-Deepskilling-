@@ -1,0 +1,26 @@
+package Engineering_Concepts.Alog_DS.Sorting_Customer_Orders;
+
+class Order {
+
+    int orderId;
+    String customerName;
+    double totalPrice;
+
+    Order(int orderId,
+          String customerName,
+          double totalPrice) {
+
+        this.orderId = orderId;
+        this.customerName = customerName;
+        this.totalPrice = totalPrice;
+    }
+
+    void display() {
+
+        System.out.println(
+                orderId + " " +
+                customerName + " " +
+                totalPrice
+        );
+    }
+}
