@@ -15,6 +15,8 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        int expect=4;
+        int actual=2+2;
+        assertTrue( expect==actual );
     }
 }
