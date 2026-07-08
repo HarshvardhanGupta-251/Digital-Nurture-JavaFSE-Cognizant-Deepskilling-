@@ -23,4 +23,12 @@ public class AppTest
         int actual=App.add(5,6);
         assertEquals(expect,actual);
     }
+
+    @Test
+    public void subtractiontest(){
+        App obj =new App();
+        int expect=5;
+        int actual=App.sub(9,4);
+        assertEquals(expect,actual);
+    }
 }
