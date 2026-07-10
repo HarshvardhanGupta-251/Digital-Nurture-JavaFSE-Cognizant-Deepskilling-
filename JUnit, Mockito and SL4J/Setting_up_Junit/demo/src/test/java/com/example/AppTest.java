@@ -20,7 +20,7 @@ public class AppTest
 
         App obj=new App();
         int expect=11;
-        int actual=App.add(5,6);
+        int actual=obj.add(5,6);
         assertEquals(expect,actual);
     }
 
@@ -28,7 +28,7 @@ public class AppTest
     public void subtractiontest(){
         App obj =new App();
         int expect=5;
-        int actual=App.sub(9,4);
+        int actual=obj.sub(9,4);
         assertEquals(expect,actual);
     }
 }
