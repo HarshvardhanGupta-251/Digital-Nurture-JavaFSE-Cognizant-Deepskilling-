@@ -106,6 +106,7 @@ This repository covers various modules including:
 Run unit tests using Maven:
 
 ```bash
+mvn clean
 mvn test
 ```
 
