@@ -13,7 +13,7 @@ public class AssertionTest {
     
     @Test
     public void testAssertion() {
-   // App obj =new App();
+   
     
  
  assertEquals(5, 2 + 3);
