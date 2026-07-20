@@ -73,7 +73,8 @@ Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 From the module directory, run:
 
 ```bash
-mvn clean test
+mvn clean install  
+mvn test
 ```
 
 For example:
