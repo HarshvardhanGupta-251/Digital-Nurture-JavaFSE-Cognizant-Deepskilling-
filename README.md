@@ -59,6 +59,62 @@ Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 - Mocking and dependency isolation with Mockito
 - Logging and diagnostics with SLF4J
 
+## Module-by-Module Breakdown
+
+### 1. Engineering Concepts
+This folder contains algorithmic and data-structure practice problems, such as:
+
+- Search and sort implementations
+- Employee, inventory, library, and task management systems
+- Financial forecasting exercises
+
+### 2. Design Pattern Principles
+This section focuses on reusable software design patterns, including:
+
+- Builder pattern
+- Factory method pattern
+- Singleton pattern
+
+### 3. JUnit, Mockito and SL4J
+This folder contains Maven-based Java test exercises and mock-driven learning, including:
+
+- JUnit setup with Maven
+- Mockito service mocking examples
+- Test execution and validation practices
+- Logging and diagnostic examples using SLF4J-related tooling
+
+## How to Use This Repository
+
+1. Open the relevant module folder based on the topic you want to practice.
+2. Confirm that Java and Maven are available on your machine.
+3. Navigate to the module directory and run Maven commands from there.
+4. Review the module-specific source files, tests, and README documents for learning context.
+
+## Common Commands
+
+```bash
+java -version
+mvn -version
+mvn clean test
+mvn clean install
+```
+
+## Practical Example
+
+To run the JUnit demo module:
+
+```bash
+cd "JUnit, Mockito and SL4J\Setting_up_Junit\demo"
+mvn clean test
+```
+
+To run the Mockito exercise:
+
+```bash
+cd "JUnit, Mockito and SL4J\Mockito_Excercise\mockito_demo"
+mvn clean test
+```
+
 ## Getting Started
 
 ### Prerequisites
