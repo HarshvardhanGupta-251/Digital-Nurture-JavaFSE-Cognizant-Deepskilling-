@@ -6,7 +6,7 @@ package com.test;
  * Hello world!
  *
  */
-public class App 
+public class Calculator  
 {
 
     public static int add(int  a, int b ){
