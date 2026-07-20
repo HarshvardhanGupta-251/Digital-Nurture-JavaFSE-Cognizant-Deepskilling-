@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when; 
 
 public class MyServiceTest {
@@ -16,7 +17,10 @@ public class MyServiceTest {
         when(mockApi.getData()).thenReturn("Mocked Data");
 
         MyService myService = new MyService(mockApi);
+
         String result = myService.fetchData();
         assertEquals("Mocked Data", result);
+
+        verify(mockApi).getData();
     }
 }

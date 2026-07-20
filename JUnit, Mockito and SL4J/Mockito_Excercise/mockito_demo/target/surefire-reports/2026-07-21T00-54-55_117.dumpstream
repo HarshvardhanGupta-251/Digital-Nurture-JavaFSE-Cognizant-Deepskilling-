@@ -1,4 +1,4 @@
-# Created at 2026-07-21T00:28:33.416
+# Created at 2026-07-21T00:54:55.378
 Boot Manifest-JAR contains absolute paths in classpath 'E:\Congnizant_DeepSkilling\JUnit, Mockito and SL4J\Mockito_Excercise\mockito_demo\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
