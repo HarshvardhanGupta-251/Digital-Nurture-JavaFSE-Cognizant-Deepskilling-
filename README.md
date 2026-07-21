@@ -20,10 +20,11 @@ The current repository is organized into the following major learning areas:
 
 ## Tech Stack
 
-- **Language**: Java
+- **Languages**: Java, PL/SQL
 - **Build Tools**: Maven
 - **Testing Frameworks**: JUnit, Mockito
 - **Logging**: SLF4J
+- **Database**: Oracle SQL
 - **Version Control**: Git
 
 ## Repository Structure
@@ -31,6 +32,9 @@ The current repository is organized into the following major learning areas:
 ```text
 Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 ├── README.md
+├── .git/
+├── .github/
+├── .vscode/
 ├── Engineering_Concepts/
 │   ├── Alog_DS/
 │   │   ├── Ecommerce_Platform_Search_Function/
@@ -42,13 +46,23 @@ Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 │   │   └── Task_Management_System/
 │   └── Design_Pattern_Principles/
 │       ├── Implementing_Builder_Pattern/
-│       ├── Implementing_Factory_Method_Pattern/
+│       ├── Implementing_Factory_Method Pattern/
 │       └── Singleton_Pattern/
-└── JUnit, Mockito and SL4J/
-    ├── Setting_up_Junit/
-    │   └── demo/
-    └── Mockito_Excercise/
-        └── mockito_demo/
+├── JUnit, Mockito and SL4J/
+│   ├── Setting_up_Junit/
+│   │   └── demo/
+│   └── Mockito_Excercise/
+│       └── mockito_demo/
+└── PL SQL Programming/
+    ├── 01_DatabaseSetup.sql
+    └── Exercises/
+        ├── Exercise 1 - Control Structures.sql
+        ├── Exercise 2 - Error Handling.sql
+        ├── Exercise 3 - Stored Procedures.sql
+        ├── Exercise 4 - Functions.sql
+        ├── Exercise 5 - Triggers.sql
+        ├── Exercise 6 - Cursors.sql
+        └── Exercise 7 - Packages.sql
 ```
 
 ## Learning Modules Covered
@@ -60,6 +74,9 @@ Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 - Unit testing with JUnit
 - Mocking and dependency isolation with Mockito
 - Logging and diagnostics with SLF4J
+- PL/SQL database programming
+- Oracle database design and optimization
+- Stored procedures, functions, triggers, and packages
 
 ## Module-by-Module Breakdown
 
@@ -70,20 +87,47 @@ This folder contains algorithmic and data-structure practice problems, such as:
 - Employee, inventory, library, and task management systems
 - Financial forecasting exercises
 
-### 2. Design Pattern Principles
+#### 1.1 Alog_DS (Algorithms & Data Structures)
+- **Ecommerce_Platform_Search_Function**: Binary and linear search implementations
+- **Employee_Management_System**: Employee data structure and management
+- **Financial_Forecasting**: Time series and forecasting algorithms
+- **Inventory_Management_System**: Product inventory tracking and management
+- **Library_Management_System**: Book catalog and library operations with search
+- **Sorting_Customer_Orders**: Bubble sort and quick sort implementations
+- **Task_Management_System**: Task scheduling and management using linked lists
+
+#### 1.2 Design Pattern Principles
 This section focuses on reusable software design patterns, including:
 
-- Builder pattern
-- Factory method pattern
-- Singleton pattern
+- **Builder Pattern**: Object construction with fluent interface
+- **Factory Method Pattern**: Object creation abstraction with multiple document types (PDF, Word, Excel)
+- **Singleton Pattern**: Single instance management with logging example
 
-### 3. JUnit, Mockito and SL4J
+### 2. JUnit, Mockito and SL4J
 This folder contains Maven-based Java test exercises and mock-driven learning, including:
 
-- JUnit setup with Maven
-- Mockito service mocking examples
+#### 2.1 Setting_up_Junit
+- JUnit setup with Maven configuration
+- Basic assertions and test structure
 - Test execution and validation practices
-- Logging and diagnostic examples using SLF4J-related tooling
+
+#### 2.2 Mockito_Excercise
+- Mockito service mocking examples
+- Mock object creation and verification
+- Dependency isolation for unit testing
+
+### 3. PL SQL Programming
+This section covers Oracle database programming with PL/SQL, including:
+
+- **01_DatabaseSetup.sql**: Initial database setup and schema creation
+- **Exercises**:
+  - Exercise 1: Control Structures (IF/ELSE, loops, conditions)
+  - Exercise 2: Error Handling (EXCEPTION, error management)
+  - Exercise 3: Stored Procedures (CREATE PROCEDURE, parameter passing)
+  - Exercise 4: Functions (CREATE FUNCTION, return values)
+  - Exercise 5: Triggers (CREATE TRIGGER, event-driven logic)
+  - Exercise 6: Cursors (Explicit cursors, cursor operations)
+  - Exercise 7: Packages (Package creation, organization)
 
 ## How to Use This Repository
 
@@ -95,12 +139,18 @@ This folder contains Maven-based Java test exercises and mock-driven learning, i
 ## Common Commands
 
 ```bash
+# Check versions
 java -version
 mvn -version
+
+# Maven build and test
 mvn compile
 mvn clean install
 mvn clean test
 
+# SQL execution (requires SQL client)
+sqlplus username@database
+# or use your preferred SQL IDE
 ```
 
 ## Practical Example
