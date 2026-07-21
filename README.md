@@ -32,21 +32,23 @@ The current repository is organized into the following major learning areas:
 Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 ├── README.md
 ├── Engineering_Concepts/
-│   └── Alog_DS/
-│       ├── Ecommerce_Platform_Search_Function/
-│       ├── Employee_Management_System/
-│       ├── Financial_Forecasting/
-│       ├── Inventory_Management_System/
-│       ├── Library_Management_System/
-│       ├── Sorting_Customer_Orders/
-│       └── Task_Management_System/
-├── Design_Pattern_Principles/
-│   ├── Implementing_Builder_Pattern/
-│   ├── Implementing_Factory_Method Pattern/
-│   └── Singleton_Pattern/
+│   ├── Alog_DS/
+│   │   ├── Ecommerce_Platform_Search_Function/
+│   │   ├── Employee_Management_System/
+│   │   ├── Financial_Forecasting/
+│   │   ├── Inventory_Management_System/
+│   │   ├── Library_Management_System/
+│   │   ├── Sorting_Customer_Orders/
+│   │   └── Task_Management_System/
+│   └── Design_Pattern_Principles/
+│       ├── Implementing_Builder_Pattern/
+│       ├── Implementing_Factory_Method_Pattern/
+│       └── Singleton_Pattern/
 └── JUnit, Mockito and SL4J/
     ├── Setting_up_Junit/
+    │   └── demo/
     └── Mockito_Excercise/
+        └── mockito_demo/
 ```
 
 ## Learning Modules Covered
@@ -95,8 +97,10 @@ This folder contains Maven-based Java test exercises and mock-driven learning, i
 ```bash
 java -version
 mvn -version
-mvn clean test
+mvn compile
 mvn clean install
+mvn clean test
+
 ```
 
 ## Practical Example
