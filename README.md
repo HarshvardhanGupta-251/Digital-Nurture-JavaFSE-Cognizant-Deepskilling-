@@ -53,16 +53,22 @@ Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 │   │   └── demo/
 │   └── Mockito_Excercise/
 │       └── mockito_demo/
-└── PL SQL Programming/
-    ├── 01_DatabaseSetup.sql
-    └── Exercises/
-        ├── Exercise 1 - Control Structures.sql
-        ├── Exercise 2 - Error Handling.sql
-        ├── Exercise 3 - Stored Procedures.sql
-        ├── Exercise 4 - Functions.sql
-        ├── Exercise 5 - Triggers.sql
-        ├── Exercise 6 - Cursors.sql
-        └── Exercise 7 - Packages.sql
+├── PL SQL Programming/
+│   ├── 01_DatabaseSetup.sql
+│   └── Exercises/
+│       ├── Exercise 1 - Control Structures.sql
+│       ├── Exercise 2 - Error Handling.sql
+│       ├── Exercise 3 - Stored Procedures.sql
+│       ├── Exercise 4 - Functions.sql
+│       ├── Exercise 5 - Triggers.sql
+│       ├── Exercise 6 - Cursors.sql
+│       └── Exercise 7 - Packages.sql
+└── Spring Core and Maven/
+  └── librarymanagement/
+    ├── pom.xml
+    └── src/
+      ├── main/
+      └── test/
 ```
 
 ## Learning Modules Covered
@@ -169,6 +175,7 @@ cd "JUnit, Mockito and SL4J\Mockito_Excercise\mockito_demo"
 mvn clean test
 ```
 
+mvn test
 ## Getting Started
 
 ### Prerequisites
@@ -183,15 +190,21 @@ mvn clean test
 From the module directory, run:
 
 ```bash
-mvn clean install  
+mvn clean install
 mvn test
 ```
 
-For example:
+Examples:
 
 ```bash
 cd "JUnit, Mockito and SL4J\Setting_up_Junit\demo"
 mvn test
+
+cd "JUnit, Mockito and SL4J\Mockito_Excercise\mockito_demo"
+mvn test
+
+cd "Spring Core and Maven\librarymanagement"
+mvn clean install
 ```
 
 ## Notes
