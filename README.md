@@ -64,11 +64,15 @@ Digital-Nurture-JavaFSE-Cognizant-Deepskilling/
 │       ├── Exercise 6 - Cursors.sql
 │       └── Exercise 7 - Packages.sql
 └── Spring Core and Maven/
-  └── librarymanagement/
-    ├── pom.xml
-    └── src/
-      ├── main/
-      └── test/
+    ├── Configuring_IOC_Container/
+    │   └── Library_management/
+    ├── Creating_Configuring_Maven_Project/
+    │   └── librarymanagement/
+    ├── Implementing_Constructor_Setter_Injection/
+    │   └── Library_management/
+    ├── Library_management/
+    ├── LibraryManagement_SpringBoot/
+    └── (all contain pom.xml, src/ with main/ and test/ subdirectories)
 ```
 
 ## Learning Modules Covered
@@ -135,6 +139,34 @@ This section covers Oracle database programming with PL/SQL, including:
   - Exercise 6: Cursors (Explicit cursors, cursor operations)
   - Exercise 7: Packages (Package creation, organization)
 
+### 4. Spring Core and Maven
+This section covers Spring Framework and Maven-based project setup, including:
+
+#### 4.1 Configuring_IOC_Container
+- Spring IoC container configuration
+- Bean lifecycle management
+- Dependency injection patterns
+
+#### 4.2 Creating_Configuring_Maven_Project
+- Maven project setup and configuration
+- POM file structure and dependencies
+- Build and compilation workflows
+
+#### 4.3 Implementing_Constructor_Setter_Injection
+- Constructor injection patterns
+- Setter injection patterns
+- Dependency resolution strategies
+
+#### 4.4 Library_management
+- Core Spring project example
+- Library management application
+- Test-driven development practices
+
+#### 4.5 LibraryManagement_SpringBoot
+- Spring Boot application setup
+- Modern Spring Boot best practices
+- Embedded application server configuration
+
 ## How to Use This Repository
 
 1. Open the relevant module folder based on the topic you want to practice.
@@ -175,7 +207,6 @@ cd "JUnit, Mockito and SL4J\Mockito_Excercise\mockito_demo"
 mvn clean test
 ```
 
-mvn test
 ## Getting Started
 
 ### Prerequisites
@@ -198,12 +229,15 @@ Examples:
 
 ```bash
 cd "JUnit, Mockito and SL4J\Setting_up_Junit\demo"
-mvn test
+mvn clean test
 
 cd "JUnit, Mockito and SL4J\Mockito_Excercise\mockito_demo"
-mvn test
+mvn clean test
 
-cd "Spring Core and Maven\librarymanagement"
+cd "Spring Core and Maven\Library_management"
+mvn clean install
+
+cd "Spring Core and Maven\LibraryManagement_SpringBoot"
 mvn clean install
 ```
 
