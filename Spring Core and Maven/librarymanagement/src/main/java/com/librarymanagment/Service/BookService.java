@@ -6,11 +6,17 @@ public class BookService {
 
     private BookRepository bookRepository;
 
-    public BookService(BookRepository bookRepository) {
+    public void setBookRepository(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
-        System.out.println("BookService Bean Created");
     }
 
+    public BookService() {
+        System.out.println("BookService Bean Created");
+    }
+ public void addBook() {
+        System.out.println("BookService: Adding a new book...");
+        bookRepository.saveBook();
+    }
     public void display() {
         System.out.println("BookService display method called");
         bookRepository.display();
