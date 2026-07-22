@@ -1,5 +1,0 @@
-# Created at 2026-07-22T09:29:08.011
-Boot Manifest-JAR contains absolute paths in classpath 'E:\Congnizant_DeepSkilling\Spring Core and Maven\librarymanagement\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

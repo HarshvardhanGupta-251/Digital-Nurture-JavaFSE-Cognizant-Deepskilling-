@@ -1,1 +1,3 @@
+com\librarymanagment\Respository\BookRepository.class
+com\librarymanagment\Service\BookService.class
 com\librarymanagment\App.class
